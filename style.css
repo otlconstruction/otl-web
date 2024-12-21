@@ -1,0 +1,161 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f3ed; /* Light stone beige */
+    color: #2e2a25; /* Dark stone brown */
+    line-height: 1.6;
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    background-color: #d4cfc4; /* Stone (light beige grey) */
+    color: #3b220b; /* Earthy brown */
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+section#about p {
+    font-size: 20px; /* Larger font size for readability */
+    line-height: 1.8; /* Increased line spacing */
+    text-align: left; /* Left-align for easier reading */
+    max-width: 800px; /* Limit text width for better legibility */
+    margin: 0 auto 1rem; /* Center the content and add spacing */
+    padding: 0.5rem 1rem; /* Add padding for breathing room */
+    background-color: #ffffff; /* Subtle contrast background */
+    border-radius: 5px; /* Rounded corners for visual appeal */
+}
+
+h2 {
+    color: #8b0000; /* Burgundy */
+    margin-bottom: 1rem;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #97663d; /* Goldenrod */
+    color: #f4f1ea; /* Light beige */
+    border-radius: 5px;
+}}
+
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+h2 {
+    color: #5a3418; /* Deep brown */
+    margin-bottom: 1rem;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #8b5a2b; /* Earthy brown */
+    color: #f7f3ed; /* Light stone beige */
+    border-radius: 5px;
+}
+
+address {
+    font-style: normal;
+    margin-top: 1rem;
+    color: #2e2a25; /* Dark stone brown */
+}
+
+a {
+    color: #5a3418; /* Deep brown */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #5a3418; /* Deep brown */
+    color: #f7f3ed; /* Light stone beige */
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #d4cfc4; /* Stone (light beige grey) */
+    color: #2e2a25; /* Dark stone brown */
+}
+
+/* Project Gallery Styling */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible grid */
+    gap: 1rem; /* Space between images */
+    margin: 1rem auto;
+    max-width: 1200px; /* Limit gallery width */
+    padding: 1rem;
+}
+
+.gallery img {
+    width: 100%; /* Make images take up full width of the grid cell */
+    height: 200px; /* Set a consistent height */
+    object-fit: cover; /* Crop images to fit while maintaining aspect ratio */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
